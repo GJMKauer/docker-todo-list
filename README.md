@@ -24,14 +24,7 @@ Para rodar o projeto, é necessário executar o comando
 ```
 docker-compose up -d
 ```
-na raíz do projeto. Isso fará com que os containers docker sejam orquestrados e a aplicação esteja disponível para visualização. Esse comando deve ser executado via terminal dentro do diretório onde está o arquivo **docker-compose.yml**.
-
-Você pode utilizar o comando
-```
-npm start
-```
-para exibir a página da aplicação.
-Obs: a aplicação em React foi inteiramente criada pela Trybe. Nós fomos responsáveis pela criação de arquivos e comandos para a montagem e utilização dos containers do Docker.
+na raíz do projeto. Isso fará com que os containers docker sejam orquestrados e a aplicação esteja disponível. Esse comando deve ser executado via terminal dentro do diretório onde está o arquivo **docker-compose.yml**.
 
 O projeto trata-se de um desafio para consolidar o aprendizado com os comandos básicos de Docker e criação de container, bem como a criação de Dockerfiles para montar imagens e a utilização de Docker-compose para orquestrar esses Dockerfiles de forma a subir uma aplicação inteira com Docker totalmente containerizada!
 
