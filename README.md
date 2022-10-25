@@ -22,11 +22,12 @@ Para iniciar o projeto, é necessário possuir o [Docker](https://docs.docker.co
 
 Para rodar o projeto, é necessário executar o comando
 ```
-docker-compose up -d
+cd docker && docker-compose up -d && cd todo-app/front-end && npm install && npm start
 ```
-na raíz do projeto. Isso fará com que os containers docker sejam orquestrados e a aplicação esteja disponível. Esse comando deve ser executado via terminal dentro do diretório onde está o arquivo **docker-compose.yml**.
 
-O projeto trata-se de um desafio para consolidar o aprendizado com os comandos básicos de Docker e criação de container, bem como a criação de Dockerfiles para montar imagens e a utilização de Docker-compose para orquestrar esses Dockerfiles de forma a subir uma aplicação inteira com Docker totalmente containerizada!
+na pasta raíz do projeto. Isso fará com que os containers docker sejam orquestrados e a aplicação esteja disponível.
+
+O projeto trata-se de um desafio para consolidar o aprendizado com os comandos básicos de Docker e criação de container, bem como a criação de Dockerfiles para montar imagens e a utilização de Docker-compose para orquestrar esses Dockerfiles de forma a subir uma aplicação inteira com Docker totalmente containerizada! Para isso, o frontend (disponibilizado pela Trybe) conta uma Lista de Tarefas em que você pode adicionar, editar e remover tarefas!
 
 ---
 
@@ -62,4 +63,4 @@ O projeto trata-se de um desafio para consolidar o aprendizado com os comandos b
 
 # REQUISITOS BÔNUS
 
-- ✅ 12. Suba uma orquestração em segundo plano com o docker-compose de forma que backend, frontend e tests consigam se comunicar
+- ✅ 12. Suba uma orquestração em segundo plano com o docker-compose de forma que backend, frontend e tests consigam se comunicar.
