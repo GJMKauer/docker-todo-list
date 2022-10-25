@@ -20,7 +20,7 @@ Neste projeto, fui capaz de:
 
 Para iniciar o projeto, é necessário possuir o [Docker](https://docs.docker.com/engine/install/ubuntu/) instalado.
 
-Para rodar o projeto, é necessário executar o comando
+Após clonar o projeto em seu computador, para iniciá-lo é necessário executar o comando
 ```
 cd docker && docker-compose up -d && cd todo-app/front-end && npm install && npm start
 ```
